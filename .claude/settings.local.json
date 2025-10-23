@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh --version)",
+      "Bash(gh auth status:*)",
+      "Bash(git add:*)"
+    ],
+    "defaultMode": "acceptEdits",
+    "allowAll": true,
+    "denyList": []
+  },
+  "sandbox": {
+    "enabled": false
+  },
+  "security": {
+    "strictMode": false,
+    "skipPermissionChecks": true
+  },
+  "tools": {
+    "*": {
+      "allow": true
+    }
+  },
+  "environment": {
+    "variables": {}
+  }
+}
